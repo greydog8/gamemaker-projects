@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_flappy</sprite>
+    <sprite>sprites\spr_pipe</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -14,6 +16,8 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\_obj_flappy</object>
+    <object>objects\obj_pipe</object>
+    <object>objects\pipe_spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main</room>
