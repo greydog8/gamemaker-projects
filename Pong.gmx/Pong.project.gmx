@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>
+    <sprite>sprites\spr_square_ball</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -14,9 +16,12 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_paddle</object>
+    <object>objects\obj_square_ball</object>
+    <object>objects\obj_paddle2</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\main</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
