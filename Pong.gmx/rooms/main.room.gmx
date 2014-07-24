@@ -56,6 +56,7 @@
     <instance objName="obj_paddle2" x="6912" y="-1920" name="inst_0FBB49F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3680" y="192" name="inst_5EEEBD0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2656" y="4800" name="inst_5C910696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CONTROL" x="0" y="0" name="inst_50D3B2BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
