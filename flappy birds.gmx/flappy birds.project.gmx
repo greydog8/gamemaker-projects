@@ -21,6 +21,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\main</room>
+    <room>rooms\title</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
