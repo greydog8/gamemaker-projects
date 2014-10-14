@@ -30,6 +30,10 @@
     <room>rooms\main</room>
     <room>rooms\main2</room>
   </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">41919.0049046528</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
