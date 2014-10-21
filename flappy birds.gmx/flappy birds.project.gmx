@@ -9,6 +9,10 @@
     <sprite>sprites\spr_flappy</sprite>
     <sprite>sprites\spr_pipe</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_play</sprite>
+    <sprite>sprites\spr_flappy2</sprite>
+    <sprite>sprites\spr_flappy3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -18,13 +22,15 @@
     <object>objects\_obj_flappy</object>
     <object>objects\obj_pipe</object>
     <object>objects\pipe_spawner</object>
+    <object>objects\obj_title</object>
+    <object>objects\obj_play</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\main</room>
     <room>rooms\title</room>
+    <room>rooms\main</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41919.0065240509</constant>
+    <constant name="GM_build_date">41933.0344302546</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
