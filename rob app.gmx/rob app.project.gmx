@@ -8,6 +8,9 @@
   <sprites name="sprites">
     <sprite>sprites\spr_forest</sprite>
     <sprite>sprites\spr_mountans</sprite>
+    <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_desert</sprite>
+    <sprite>sprites\spr_tundra</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -15,12 +18,21 @@
     <object>objects\object0</object>
     <object>objects\obj_forest</object>
     <object>objects\obj_moutains</object>
+    <object>objects\obj_back</object>
+    <object>objects\obj_desert</object>
+    <object>objects\obj_tundra</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main</room>
     <room>rooms\forest</room>
     <room>rooms\Moutains</room>
+    <room>rooms\Desert</room>
+    <room>rooms\tundra</room>
   </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">41940.01189</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

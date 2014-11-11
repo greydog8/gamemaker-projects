@@ -37,12 +37,12 @@
     <object>objects\test</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room2</room>
     <room>rooms\room1</room>
+    <room>rooms\room2</room>
     <room>rooms\room0</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41933.0115330093</constant>
+    <constant name="GM_build_date">41954.0586655208</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
