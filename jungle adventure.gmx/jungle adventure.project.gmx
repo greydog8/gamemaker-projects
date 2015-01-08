@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\pitfall</sound>
     <sound>sound\sonic</sound>
+    <sound>sound\troll</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_standing</sprite>
@@ -20,6 +21,8 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\spr_power_up_box</sprite>
+    <sprite>sprites\spr_troll</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -36,6 +39,8 @@
     <object>objects\object7</object>
     <object>objects\obj_block</object>
     <object>objects\test</object>
+    <object>objects\obj_power_up_box</object>
+    <object>objects\obj_troll</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
@@ -43,7 +48,7 @@
     <room>rooms\room0</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41989.0683669676</constant>
+    <constant name="GM_build_date">42012.0791951736</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
