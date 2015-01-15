@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\point</sound>
+    <sound>sound\die</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_flappy</sprite>
     <sprite>sprites\spr_pipe</sprite>
@@ -13,6 +16,10 @@
     <sprite>sprites\spr_play</sprite>
     <sprite>sprites\spr_flappy2</sprite>
     <sprite>sprites\spr_flappy3</sprite>
+    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\spr_game_over</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -24,13 +31,18 @@
     <object>objects\pipe_spawner</object>
     <object>objects\obj_title</object>
     <object>objects\obj_play</object>
+    <object>objects\obj_score</object>
+    <object>objects\obj_game_over</object>
+    <object>objects\object7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title</room>
     <room>rooms\main</room>
+    <room>rooms\room2</room>
+    <room>rooms\game_over</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">42012.020571331</constant>
+    <constant name="GM_build_date">42019.0867086227</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
